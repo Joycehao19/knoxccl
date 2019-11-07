@@ -39,13 +39,8 @@ dark-mode-toggle {
     opacity: 1;
 }
 
-.table {
+.dark-theme .table {
     color:lightgreen;
-}
-
-#meetings .table {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/knox-public-works-render-668px.jpg");
 }
 
 .nav-tabs .nav-link {
@@ -92,14 +87,16 @@ blockquote {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 400;
+    font-weight: 401;
 }
+
+/* add something */
 
 ol {
     list-style-type: decimal;
 }
 
-#photos img, #home img, #newsletters img, #meetings img {
+#photos img, #home img, #newsletters img {
     width: 100%;
     display: block;
     padding-bottom: 1em;
@@ -206,8 +203,8 @@ ol ol ol {
     text-decoration: underline;
 }
 
-.dark-theme .tab-pane a, .table a {
-    color: white;
+.dark-theme .tab-pane a {
+    color: gray;
 }
 
 a:hover { /* class or pseudo-class + element */
@@ -218,7 +215,7 @@ a:visited {
     color: #2c4464;
 }
 
-.dark-theme a:visited, .table a:visited {
+.dark-theme a:visited {
     color: lightseagreen;
 }
 
